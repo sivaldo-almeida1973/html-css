@@ -1,0 +1,27 @@
+   @charset "UTF-8";
+        body{
+            background-color: rgba(230, 139, 21, 0.447);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        h1{
+            background-color: aquamarine;
+            text-align: center;
+            color: rgba(68, 0, 255, 0.8);
+            font-size: 2em;
+        }
+        h2{
+            
+            color: rgb(255, 0, 0);
+            font-size: 1.5em;
+        }
+        main{
+            border: 1px solid;
+            margin: auto;
+            width: auto;
+            
+        }
+        p{
+            text-align: justify;
+
+        }

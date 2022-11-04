@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classe</title>
+    <style>
+        div{
+            display: inline-block;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+
+        }
+        #d2:hover{
+            background-color: brown;
+        }
+        #d1:hover{
+            background-color: brown;
+        }
+        #d3:hover{
+            background-color: brown;
+        }
+        #d1{ background-color: coral;
+        
+        }
+        div > div{
+            display: none;
+        }
+        div:hover > div{
+        display: block;
+        }
+       
+        
+        #d2{ background-color: rgb(80, 255, 83);}
+        #d3{ background-color: rgb(13, 38, 232);}
+        img{
+            width: 200px;
+            height: 200px;
+        }
+        main{
+            background-color: antiquewhite;
+            border: 1px solid;
+            margin: auto;
+            width: 820px;
+            height: auto;
+            padding: 10px;
+        }
+        h1{
+            color: brown;
+            background-color: aquamarine;
+            padding: 20px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+            border: 1px solid;
+            text-align: center;
+            font-family:fantasy;
+        }
+
+    </style>
+</head>
+<body>
+   <main>
+    <h1>Selecione o Item Desejado</h1>
+       <div><img src="https://st.depositphotos.com/1007985/2164/i/600/depositphotos_21642961-stock-photo-rainbow-lorikeets.jpg" alt="">
+           <div id="d1"><img src="https://fotografiamais.com.br/wp-content/uploads/2018/10/fotos-de-passaros-coloridos.jpg" alt=""></div>
+           <div id="d2"><img src="https://revistapesquisa.fapesp.br/wp-content/uploads/2019/04/060-061_P%C3%A1ssaros_278-0-1140px-abre.jpg" alt=""></div>
+           <div id="d3"><img src=https://i.ytimg.com/vi/J_-p7yiovO4/maxresdefault.jpg alt=""></div>
+       </div>
+       <div><img src="https://www.petz.com.br/blog/wp-content/uploads/2019/05/tipos-de-passaros.jpg" alt="">
+           <div id="d1"><img src="https://s2.glbimg.com/aP9jxeF1bt5_FOoMCBsFX0nGT_E=/0x0:1678x1119/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2019/p/b/ABT2BXRRSjusorqY24wg/gaturamo-bandeira.jpg" alt=""><img src="https://noticias.buscavoluntaria.com.br/wp-content/uploads/2019/11/jason-hafso-DS0ZSq96IeU-unsplash.jpg" alt=""></div>
+           <div id="d2"><img src="https://st.depositphotos.com/1007985/2164/i/600/depositphotos_21642961-stock-photo-rainbow-lorikeets.jpg" alt=""><img src="https://fotografiamais.com.br/wp-content/uploads/2018/10/fotos-de-passaros-coloridos-1.jpg" alt=""></div>
+           <div id="d3"><img src="" alt=""></div>
+       </div>
+       <div><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/95cb4aeed4e54a198160ab4900c13b93_9366/Tenis_Grand_Court_SE_Preto_FW6690_01_standard.jpg" alt="">
+           <div id="d1"><img src="https://assets.adidas.com/images/w_600,f_auto,q_auto/95cb4aeed4e54a198160ab4900c13b93_9366/Tenis_Grand_Court_SE_Preto_FW6690_01_standard.jpg" alt=""></div>
+           <div id="d2"><img src="https://static.zattini.com.br/produtos/tenis-adidas-breaknet-masculino/28/NQQ-4378-028/NQQ-4378-028_zoom1.jpg?ts=1661862762" alt=""></div>
+           <div id="d3"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdz7EJ7Trx53vb-0FymzUp2CZ3dVfznFsMn_hwioAG8NTgNOptyvdjKTiPnCNv57AG02s&usqp=CAU" alt=""></div>
+       </div>
+       <div><img src="https://www.plantapronta.com.br/projetos/161/02.jpg" alt="">
+           <div id="d1"><img src="https://system.soprojetos.com.br/files/1503/project_page_e/PAD-COD101_1---PhotoWEB.jpg?1660762816" alt=""></div>
+           <div id="d2"><img src="https://system.soprojetos.com.br/files/1491/project_page_e/PAD-COD43-FOTO-1-WEB.jpg?1659015535" alt=""></div>
+           <div id="d3"><img src="https://images.adsttc.com/media/images/5f90/e3c2/63c0/1779/0100/0109/medium_jpg/2.jpg?1603331000" alt=""></div>
+       </div>
+   </main>
+
+    
+</body>
+</html>

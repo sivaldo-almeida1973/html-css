@@ -1,0 +1,76 @@
+@charset "utf-8";
+body{background-color: rgb(192, 212, 229);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+body:hover{background-color: brown;}
+h1{
+    color: rgb(29, 29, 230);
+    background-color: rgb(169, 199, 199);
+    text-align: center;
+    box-shadow: 1px 2px 3px;
+    border-radius: 10px;
+}
+h1:hover{
+    background-color: crimson;
+    box-shadow: 3px 10px 5px yellowgreen;
+}
+h1#principal{
+    text-align: center;
+    color: rgb(20, 242, 53);
+    text-shadow: 1px 2px 3px black;
+    background-color: rgb(156, 182, 182);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px black;
+}
+#principal:hover{
+    background-color: gold;
+}
+h2{
+    color: red;
+    background-color: burlywood;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px;
+}
+.basico{
+    color: rgb(8, 113, 42);
+    font-weight: bolder;
+}
+.basico:hover{
+    width: auto;
+}
+.intermediario{
+    color: blueviolet;
+    font-weight: bolder;
+}
+.avançado{
+    color: chartreuse;
+    font-weight: bold;
+}
+
+main{
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: auto;
+    margin: auto;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: bisque;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    width: auto;
+}
+p{
+    text-align: justify;
+    
+}
+img{
+    width: 100px;
+}

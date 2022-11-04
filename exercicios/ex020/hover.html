@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de Hover</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p {
+            display: inline-flex;
+            color: aliceblue;
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+        }
+        div:hover{
+            color: brown;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Exemplos de Hover</h1>
+        <p>passe o mouse aqui em cima</p>
+        <div id="d1">Passe o mouse aqui
+            <p>Texto Escondido...</p>
+        </div>
+        <div id="d2">Passe o mouse aqui
+            <p>Texto Escond...</p>
+        </div>
+        <div id="d3">Passe o mouse aqui
+            <p>Texto Esc...</p>
+        </div>
+        <p>fim do exemplo</p>
+    </div>
+    
+</body>
+</html>
